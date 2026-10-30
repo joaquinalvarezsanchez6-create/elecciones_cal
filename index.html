@@ -11,7 +11,8 @@
         <h1>Por favor, introduzca sus datos para dar pie a la votación</h1>
     </header>
     <article>
-        <form action="https://formsubmit.co/donotdisturbmelon@gmail.com" method="POST" enctype="multipart/form-data">
+        <form action="https://formsubmit.co/donotdisturbmelon@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="Nueva votación de la CAL">
             <p>
                 <label for="nom">Nombre</label><input type="text" name="nombre" id="nom">
                 <label for="apel">Apellido</label><input type="text" id="apel" name="apellido">
@@ -30,7 +31,7 @@
             <p>
                 <label for="por">País de origen</label><input type="text" name="paisorigen" id="por">
                 <label for="nor">Nación de origen</label><input type="text" name="nacionorigen" id="nor">
-                <label for="uo">Universo de origen</label><input type="text" name="Universo origen" id="uo">
+                <label for="uo">Universo de origen</label><input type="text" name="universo_origen" id="uo">
             </p>
             <p>
                 <label for="cpelo">Color de pelo</label><input type="color" name="colorpelo" id="cpelo">
@@ -50,17 +51,17 @@
             <label for="vot">¿A quién quieres votar como emperador de la Confederación Artística Libre?</label>
             <p>
                 <h2>
-                    <input type="radio" name="votasiones" value="Joaquin"> Joaquín Álvarez (Duque de Deadly School)
+                    <input type="radio" name="votaciones" value="Joaquin"> Joaquín Álvarez (Duque de Deadly School)
                 </h2>
             </p>
             <p>
                 <h3>
-                    <input type="radio" name="votasiones" value="joaquin"> Joaquín Álvarez (Duque de Rockagentus)
+                    <input type="radio" name="votaciones" value="joaquin"> Joaquín Álvarez (Duque de Rockagentus)
                 </h3>
             </p>
             <p>
                 <h4>
-                    <input type="radio" name="votasiones" value="joako"> Joaquín Álvarez (Duque de Cabrejas)
+                    <input type="radio" name="votaciones" value="joako"> Joaquín Álvarez (Duque de Cabrejas)
                 </h4>
             </p>
             <button type="submit">Enviar</button>
